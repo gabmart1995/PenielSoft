@@ -1,0 +1,133 @@
+/* Menú de navegación */
+nav {
+    background-color: #212121;
+}
+.logo {
+    font-size: 2rem;
+    color: #e1e1e1;
+    font-weight: bold;
+}
+.logo2 {
+    font-size: 2rem;
+    color:  #0581fe;
+    font-style: italic;
+    font-weight: bold;
+    margin-left: -8px;
+}
+/* Sección de servicios */
+#servicios h2 {
+    margin-bottom: 75px;
+    margin-top: 25px;
+}
+#servicios h5 {
+    margin-top: 100px;
+    text-align: center;
+    margin-bottom: 50px;
+    font-weight: bold;
+}
+#servicios p {
+    text-align: center;
+    font-size: 18px;
+}
+#servicios a {
+    background-color:#0581fe;
+    margin-top:50px;
+    margin-bottom: 50px;
+    text-transform: none;
+}
+#servicios .icon-block {
+    margin-top: 25px;
+}
+#servicios .fas {
+    font-size: 5rem;
+    margin-left: 25px;
+    color: #212121;
+}
+#servicios .fas:hover {
+    color:#0581fe;
+    -webkit-transition: all 0.5s ease;
+	-moz-transition:all 0.5s ease;
+	-ms-transition:all 0.5s ease;
+	-o-transition:all 0.5s ease;
+	transition:all 0.5s ease;
+}
+#servicios #boton1 i{
+    color: white;
+    font-size: 15px;
+    margin-left: -2px;
+}
+#servicios #boton1 {
+    margin-top: -15px;
+}
+/* Sección de nosotros */
+#nosotros {
+    background-color: #212121;
+    color: white;
+}
+#nosotros h2 {
+    text-align: center;
+    margin-top: 75px;
+    margin-bottom: 100px;
+}
+#nosotros h4 {
+    text-align: center;
+    text-decoration: underline;
+    margin-bottom: 40px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+#nosotros p {
+    font-size: 18px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+}
+#nosotros .logo3 {
+    color: #e1e1e1;
+    font-weight: bold;
+    font-size: 20px;
+}
+#nosotros .logo4 {
+    color:  #0581fe;
+    font-style: italic;
+    font-weight: bold;
+    margin-right: 2px;
+    font-size: 20px;
+}
+#nosotros #intro {
+    font-size: 20px;
+    margin-bottom: 125px;
+}
+#nosotros img {
+    border-radius: 5px;
+}
+#nosotros .img1 {
+    width: 500px;
+    height: 250px;
+}
+#nosotros .img2 {
+    width: 500px;
+    height: 250px;
+}
+#nosotros .img3 {
+    margin-top: -5px;
+}
+#nosotros .row {
+    margin-bottom: 50px;
+}
+#nosotros span {
+    font-weight: 600;
+    color: #0581fe;
+    font-style: italic;
+    margin-right: 1px;
+}
+/*Sección escogenos*/
+#escogenos h2{
+    text-align: center;
+    margin-top: 75px;
+    margin-bottom: 25px;
+}
+#escogenos h4 {
+    margin-bottom: 25px;
+    text-align: center;
+}
