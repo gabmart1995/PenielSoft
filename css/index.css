@@ -131,3 +131,83 @@ nav {
     margin-bottom: 25px;
     text-align: center;
 }
+/*Contenedor parallax*/
+.parallax-container{
+    height: 250px;
+}
+.parallax-container::before{
+    content: "";
+    height: 250px;
+    width: 100%;
+    background-color: black;
+    position: absolute;
+    opacity: 0.4;
+}
+
+@media(max-width: 600px){
+    .parallax-container{
+        height: 200px;
+    }
+    .parallax-container::before{
+        content: "";
+        height: 200px;
+        width: 100%;
+        background-color: black;
+        position: absolute;
+        opacity: 0.4;
+    }
+}
+.content {
+    height: 250px;
+    background-position: center;
+    background-repeat: none;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    background-image: url(./../img/hacker-1569744_1920.jpg);
+     /*alineacion del texto*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.content h4 {
+    color: white;
+}
+.content:before {
+    content: "";
+    height: 250px;
+    width: 100%;
+    background-color: black;
+    position: absolute;
+    opacity: 0.4;
+}
+@media(max-width: 600px) {
+    .content {
+        height: 250px;
+        background-position: center;
+        background-repeat: none;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        background-size: cover;
+        -o-background-size: cover;
+        background-image: url(./../img/hacker-1569744_1920.jpg);
+        /*alineacion del texto*/
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .content h4 {
+        color: white;
+    }
+    .content:before {
+        content: "";
+        height: 250px;
+        width: 100%;
+        background-color: black;
+        position: absolute;
+        opacity: 0.4;
+    }
+}
