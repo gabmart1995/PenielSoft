@@ -122,6 +122,9 @@ nav {
     margin-right: 1px;
 }
 /*Sección escogenos*/
+#escogenos .container {
+    margin-bottom: 25px;
+}
 #escogenos h2{
     text-align: center;
     margin-top: 75px;
@@ -131,7 +134,7 @@ nav {
     margin-bottom: 25px;
     text-align: center;
 }
-/*Contenedor parallax*/
+/*Contenedores parallax*/
 .parallax-container{
     height: 250px;
 }
@@ -143,7 +146,6 @@ nav {
     position: absolute;
     opacity: 0.4;
 }
-
 @media(max-width: 600px){
     .parallax-container{
         height: 200px;
@@ -165,7 +167,7 @@ nav {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
-    background-image: url(./../img/hacker-1569744_1920.jpg);
+    background-image: url(./../img/caracas-264581_1920.jpg);
      /*alineacion del texto*/
     display: flex;
     flex-direction: column;
@@ -181,7 +183,7 @@ nav {
     width: 100%;
     background-color: black;
     position: absolute;
-    opacity: 0.4;
+    opacity: 0.2;
 }
 @media(max-width: 600px) {
     .content {
@@ -192,7 +194,7 @@ nav {
         -moz-background-size: cover;
         background-size: cover;
         -o-background-size: cover;
-        background-image: url(./../img/hacker-1569744_1920.jpg);
+        background-image: url(./../img/caracas-264581_1920.jpg);
         /*alineacion del texto*/
         display: flex;
         flex-direction: column;
@@ -208,6 +210,6 @@ nav {
         width: 100%;
         background-color: black;
         position: absolute;
-        opacity: 0.4;
+        opacity: 0.2;
     }
 }
