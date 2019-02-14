@@ -125,6 +125,7 @@ nav {
 #equipo h2 {
     text-align: center;
     margin-top: 75px;
+    margin-bottom: 50px;
 }
 #equipo h4 {
     text-align: center;
@@ -135,9 +136,6 @@ nav {
     margin-top: 25px;
     margin-left: 10px;
     margin-right: 10px; 
-}
-#equipo .row {
-    margin-top: 50px;
 }
 #equipo .span-text{
     font-style: italic;
@@ -150,6 +148,7 @@ nav {
 }
 #equipo a {
     margin-top: 25px;
+    background-color: #0581fe;
 }
 #equipo .italic-text{
     font-style: italic;
