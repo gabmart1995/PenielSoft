@@ -6,4 +6,7 @@ document.addEventListener('DOMContentLoaded', function() {
     //contenedor parallax
     var elemento2 = document.querySelectorAll('.parallax');
     var instancia2 = M.Parallax.init(elemento2);
+    //menu collapsable
+    var elemento3 = document.querySelectorAll('.collapsible');
+    var instancia3 = M.Collapsible.init(elemento3);
 });
