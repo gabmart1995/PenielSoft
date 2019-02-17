@@ -153,6 +153,13 @@ nav {
 #equipo .italic-text{
     font-style: italic;
 }
+#equipo .card-reveal{
+    background-color: #212121;
+    color: #e1e1e1;
+}
+#equipo .card-reveal  i{
+    color: #e1e1e1;
+}
 /*Sección escogenos*/
 #escogenos{
     background-color: #212121;
@@ -259,7 +266,7 @@ nav {
 }
 #planes .collapsible{
     margin-top: 25px;
-    margin-bottom: 100px;
+    margin-bottom: 25px;
 }
 #planes .collapsible-header{
     background-color: #212121;
@@ -270,4 +277,58 @@ nav {
 }
 #planes table{
     font-size: 16px;
+}
+#contactanos {
+    background-color: #212121;
+}
+#contactanos h6 {
+    color: #e1e1e1;
+    margin-top: 25px;
+    margin-bottom: 50px;
+    line-height: 30px;
+}
+#contactanos button {
+    text-transform: none;
+    margin-top: 25px;
+    background-color: #0581fe;
+}
+#contactanos .card-panel{
+    margin-bottom: 75px;
+}
+/*Formualrio*/
+.input-field .prefix.active{
+    color: #0581fe; 
+}
+/*Footer de la pagina*/
+footer{
+    background-color: #e1e1e1;
+}
+footer a {
+    text-decoration: none;
+    color: black;
+    margin-top: 10px;
+}
+footer .container{
+    margin-top: -25px;
+    margin-bottom: -25px;
+}
+footer .row {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+footer .logo {
+    font-size: 2rem;
+    font-weight: bold;
+    color: black;
+    margin-right: 5px;
+}
+
+footer .modal h4 {
+    margin-bottom: 25px;
+}
+footer .modal li {
+    font-size: 16px;
+    line-height: 25px;
 }

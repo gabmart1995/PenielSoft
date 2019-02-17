@@ -33,6 +33,29 @@
             </div>
         </nav>
     </div>
+    <!-- floating button -->
+    <div class="fixed-action-btn">
+        <a class="btn-floating blue">
+            <i class="fas fa-plus"></i>
+        </a>
+        <ul>
+            <li>
+                <a class="btn-floating blue" href="#">
+                    <i class="fab fa-facebook-square"></i>
+                </a>
+            </li>
+            <li>
+                <a class="btn-floating blue" href="#">
+                    <i class="fab fa-github"></i>
+                </a>
+            </li>
+            <li>
+                <a class="btn-floating blue" href="#">
+                    <i class="fab fa-telegram"></i>
+                </a>
+            </li>   
+        </ul>
+    </div>
     <!-- Menú responsive -->
     <ul class="sidenav" id="nav-mobile">
         <li><a href="#">Inicio</a></li>
@@ -108,9 +131,9 @@
     </section>
     <!--Contenedor Parallax-->
     <div class="parallax-container">
-            <div class="paralax">
-                <img src="./img/hardware-3509891_1920.jpg" class="responsive-img" alt="Paralax">
-            </div>
+        <div class="paralax">
+            <img src="./img/hardware-3509891_1920.jpg" class="responsive-img" alt="Paralax">
+        </div>
     </div>
     <!-- Seccion de nosotros --> 
     <section id="nosotros">
@@ -713,6 +736,13 @@
                     </ul>
                 </div>
             </div>
+            <div class="row">
+                <div class="col s12">
+                    <p class="center">
+                        "Nuestros precios son negiociables".
+                    </p>
+                </div>
+            </div>
         </div>
     </section>
      <!--Intro contactanos -->
@@ -721,8 +751,94 @@
             <h4>Contáctanos</h4>
         </div>
     </section>
+    <!--formulario de contacto-->
+    <section id="contactanos">
+        <div class="container section">
+            <div class="row">
+                <h6 class="center">
+                    Para contactarnos solamente tiene que completar el formulario
+                    y nos pondremos en contacto telefonico o través de nuestro 
+                    correo.
+                </h6>
+                <form action="" method="" class="col s12" onsubmit="mensaje()">
+                    <div class="row card-panel">
+                        <div class="input-field col s6">
+                            <i class="fas fa-user-circle prefix"></i>
+                            <input type="text" placeholder="ingresa tu nombre ..."
+                            id="nombre" class="validate" pattern="[A-Z a-z]+" 
+                            maxlength="20" minlength="5" required>
+                            <label for="">Nombre:</label>
+                        </div>
+                        <div class="input-field col s6">
+                            <input type="text" placeholder="ingresa tu apellido ..."
+                            id="apellido" class="validate" pattern="[A-Z a-z]+" 
+                            maxlength="20" minlength="5" required>
+                            <label for="apellido">Apellido:</label>
+                        </div>
+                        <div class="input-field col s12">
+                            <i class="fas fa-envelope prefix"></i>
+                            <input type="email" placeholder="ingresa tu correo ..."
+                            id="email" class="validate" required>
+                            <label for="email">Correo electrónico</label>
+                        </div>
+                        <div class="input-field col s12">
+                            <i class="fas fa-phone prefix"></i>
+                            <input type="tel" placeholder="ingresa tu numero telefonico"
+                            id="telefono" class="validate" pattern="[0-9]+"
+                            minlength="9" maxlength="10" required>
+                            <label for="telefono">Telefono de contacto:</label>
+                        </div>
+                        <button type="submit" class="btn waves-light waves-effect blue">
+                            <i class="fas fa-envelope left"></i>
+                            Enviar
+                        </button>
+                        <button type="reset" class="btn blue waves-light waves-effect">
+                            <i class="fas fa-times left"></i>
+                            Cancelar
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
     <!-- Javascript -->
     <script src="./js/vendor/materialize.js" type="text/javascript"></script>
     <script src="./js/init.js" type="text/javascript"></script>     
+    <script src="./js/functions.js" type="text/javascript"></script>
 </body>
+<footer>
+    <!--Ventana modal-->
+    <div class="modal" id="modal1">
+        <div class="modal-content">
+            <h4>Condiciones del servicio:</h4>
+            <ol>
+                <li>
+                    No se permite la utilización de este servicio a los menores 
+                    de 18 años.
+                </li> <br>
+                <li>
+                    Todo servicio incluye un presupuesto de trabajo, que 
+                    se cancela el 50% al iniciar y el otro 50% al concluir el servicio.
+                </li>
+            </ol>
+        </div>
+        <!-- footer -->
+        <div class="modal-footer">
+            <a class="modal-close waves-effect waves-green btn-flat">
+                Aceptar
+            </a>
+        </div>
+    </div>
+    <div class="footer-copyright">
+        <div class="container">
+           <div class="row">
+               <div class="col s12">
+                    <span class="logo">Peniel</span>
+                    <span class="logo2">Soft</span>
+                    <a href="#modal1" class="right modal-trigger">Condiciones del servicio</a>
+               </div>
+           </div>
+        </div>
+    </div>
+</footer>
 </html>
