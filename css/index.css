@@ -324,7 +324,21 @@ footer .logo {
     color: black;
     margin-right: 5px;
 }
-
+@media(max-width: 600px) {
+    footer .logo {
+        font-size: 20px;
+        font-weight: bold;
+        color: black;
+        margin-right: 5px;
+    }
+    footer .logo2 {
+        font-size: 20px;
+        color:  #0581fe;
+        font-style: italic;
+        font-weight: bold;
+        margin-left: -8px;
+    }
+}
 footer .modal h4 {
     margin-bottom: 25px;
 }

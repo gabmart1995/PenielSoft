@@ -25,13 +25,83 @@
                     <i class="fas fa-bars"></i>
                 </a>
                 <ul class="left hide-on-med-and-down">
-                    <li><a href="#">Inicio</a></li>
-                    <li><a href="#">Servicios</a></li>
-                    <li><a href="#">¿Quienes somos?</a></li>
-                    <li><a href="#">Contáctanos</a></li>
+                    <li><a href="#servicios">Servicios</a></li>
+                    <li><a href="#" class="dropdown-trigger" data-target="dropdown1">
+                            ¿Quinenes Somos?
+                    </a></li>
+                    <li><a href="#" class="dropdown-trigger" data-target="dropdown2">
+                        Planes de Desarrollo
+                    </a></li>
+                    <li><a href="#contactanos">Contáctanos</a></li>
                 </ul>        
             </div>
+            <!-- Dropdowns -->
+            <ul class="dropdown-content" id="dropdown1">
+                <li><a href="#nosotros" class="black-text">¿Quienes Somos?</a></li>
+                <li><a href="#equipo" class="black-text">Conoce al equipo</a></li>
+                <li class="divider" tabindex="-1"></li>
+                <li><a href="#escogenos" class="black-text">¿Porque debería escogernos?</a></li>
+            </ul>
+            <ul class="dropdown-content" id="dropdown2">
+                    <li><a href="#planes" class="black-text">Planes de desarrollo</a></li>
+                    <li class="divider" tabindex="-1"></li>
+                    <li><a href="#" class="black-text">Casa de software</a></li>
+                </ul>
         </nav>
+    </div>
+    <!-- Menú responsive -->
+    <ul class="sidenav" id="nav-mobile">
+        <li><a href="#servicios">Servicios</a></li>
+        <li><a href="#nosotros">¿Quienes Somos?</a></li>
+        <li><a href="#planes">Planes de Desarrollo</a></li>
+        <li><a href="#contactanos">Contáctanos</a></li>
+    </ul>
+     <!--Slider-->
+     <div class="slider">
+            <ul class="slides">
+                <li>
+                    <img src="./img/hacker-1569744_1920.jpg" alt="hacker">
+                    <div class="caption center-align">
+                        <h3 class="center">PenielSoft</h3>
+                        <h5 class="light grey-text text-lighten-3">"Tu mejor opcion para tu negocio"</h5>
+                    </div>
+                </li>
+                <li>
+                    <img src="./img/computer-1209641_1920.jpg" alt="computer">
+                    <div class="caption left-align">
+                        <h3>Desarrollo Web</h3>
+                        <h5 class="light grey-text text-lighten-3">
+                            Implementamos desarrollo de aplicaciones web responsivas
+                        </h5>
+                    </div>
+                </li>
+                <li>
+                    <img src="./img/Curso-Java.jpg" alt="java">
+                    <div class="caption right-align">
+                        <h3>Desarrollo de Aplicaciones</h3>
+                        <h5 class="light grey-text text-lighten-3">
+                            Diseñamos aplicaciones de escritorio para pequeñas y grandes empresas
+                        </h5>
+                    </div>
+                </li>
+                <li>
+                    <img src="./img/hardware-3509891_1920.jpg" alt="hardware">
+                    <div class="caption left-align">
+                        <h3 class="black-text">Soporte Tecnológico</h3>
+                        <h5 class="black-text">
+                            Proveemos soporte tecnologico, mantenimiento preventivo 
+                            y correctivo de equipos
+                        </h5>
+                    </div>
+                </li>
+                <li>
+                    <img src="./img/business-582912_1920.jpg" alt="business">
+                    <div class="caption center-align">
+                        <h3 class="center">Proximamente</h3>
+                        <h5 class="light grey-text text-lighten-3">Casa de software.</h5>
+                    </div>
+                </li>
+            </ul>
     </div>
     <!-- floating button -->
     <div class="fixed-action-btn">
@@ -56,15 +126,8 @@
             </li>   
         </ul>
     </div>
-    <!-- Menú responsive -->
-    <ul class="sidenav" id="nav-mobile">
-        <li><a href="#">Inicio</a></li>
-        <li><a href="#">Servicios</a></li>
-        <li><a href="#">¿Quienes somos?</a></li>
-        <li><a href="#">Contactanos</a></li>
-    </ul>
     <!-- Sección de servicios -->
-    <section id="servicios">
+    <section id="servicios" class="scrollspy">
         <div class="container section">
             <h2 class="center">Servicios</h2>
             <div class="row">
@@ -121,7 +184,7 @@
             <div class="row" id="boton1">
                 <div class="col s12 m12">
                     <center>
-                        <a href="" class="btn waves-effect waves-light">
+                        <a href="#escogenos" class="btn waves-effect waves-light">
                             <i class="fas fa-plus left"></i>Ver más información
                         </a>
                     </center>
@@ -136,7 +199,7 @@
         </div>
     </div>
     <!-- Seccion de nosotros --> 
-    <section id="nosotros">
+    <section id="nosotros" class="scrollspy">
         <div class="container section">
             <h2>¿Quienes somos?</h2>
             <p id="intro">
@@ -209,7 +272,8 @@
             </div>
         </div>
     </section>
-    <section id="equipo">
+    <!-- seccion equipo -->
+    <section id="equipo" class="scrollspy">
         <div class="container section">
             <h2>Conoce al equipo</h2>
             <div class="row">
@@ -359,7 +423,7 @@
         </li>
         <li><a href="#"><i class="fab fa-telegram left"></i>+584129101803</a></li>
         <li><div class="divider"></div></li>
-        <li><a href="#"><i class="fab fa-github left"></i>gabmart1995</a></li>
+        <li><a href="#"><i class="fab fa-github left"></i>gabmart1995@github.com</a></li>
     </ul>
     <ul id="menu_jhonathan" class="sidenav">
         <li> 
@@ -411,7 +475,7 @@
             <img src="./img/computer-1209641_1920.jpg" class="responsive-img" alt="Paralax">
         </div>
     </div>
-    <section id="escogenos">
+    <section id="escogenos" class="scrollspy">
         <div class="container section">
             <h2>¿Porque debería escogernos?</h2>
             <div class="row">  <!--Desarrollo de Aplicaciones-->
@@ -615,7 +679,7 @@
         </div>
     </section>
     <!-- Planes de trabajo-->
-    <section id="planes">
+    <section id="planes" class="scrollspy">
         <div class="container section">
             <h2 class="center">Planes de Desarrollo</h2>
             <p class="center">
@@ -746,13 +810,13 @@
         </div>
     </section>
      <!--Intro contactanos -->
-     <section>
+     <section id="caracas">
         <div class="content">
             <h4>Contáctanos</h4>
         </div>
     </section>
     <!--formulario de contacto-->
-    <section id="contactanos">
+    <section id="contactanos"  class="scrollspy">
         <div class="container section">
             <div class="row">
                 <h6 class="center">
@@ -762,14 +826,15 @@
                 </h6>
                 <form action="" method="" class="col s12" onsubmit="mensaje()">
                     <div class="row card-panel">
-                        <div class="input-field col s6">
+                        <div class="input-field col s12 m6">
                             <i class="fas fa-user-circle prefix"></i>
                             <input type="text" placeholder="ingresa tu nombre ..."
                             id="nombre" class="validate" pattern="[A-Z a-z]+" 
                             maxlength="20" minlength="5" required>
                             <label for="">Nombre:</label>
                         </div>
-                        <div class="input-field col s6">
+                        <div class="input-field col s12 m6">
+                            <i class="prefix fas fa-user-circle"></i>
                             <input type="text" placeholder="ingresa tu apellido ..."
                             id="apellido" class="validate" pattern="[A-Z a-z]+" 
                             maxlength="20" minlength="5" required>
@@ -782,7 +847,7 @@
                             <label for="email">Correo electrónico</label>
                         </div>
                         <div class="input-field col s12">
-                            <i class="fas fa-phone prefix"></i>
+                                <i class="fas fa-phone prefix"></i>
                             <input type="tel" placeholder="ingresa tu numero telefonico"
                             id="telefono" class="validate" pattern="[0-9]+"
                             minlength="9" maxlength="10" required>
