@@ -32,4 +32,7 @@ document.addEventListener('DOMContentLoaded', function() {
     //scrollspy
     var elemento8 = document.querySelectorAll('.scrollspy');
     var instancia8 = M.ScrollSpy.init(elemento8);
+    //tabs
+    var elemento9 = document.querySelectorAll('.tabs');
+    var instancia9 = M.Tabs.init(elemento9);
 });

@@ -19,13 +19,13 @@ nav {
 }
 /* Sección de servicios */
 #servicios h2 {
-    margin-bottom: 75px;
-    margin-top: 25px;
+    margin-bottom: 50px;
+    margin-top: 50px;
 }
 #servicios h5 {
-    margin-top: 100px;
+    margin-top: 50px;
     text-align: center;
-    margin-bottom: 50px;
+    margin-bottom: 1em;
     font-weight: bold;
 }
 #servicios p {
@@ -70,17 +70,16 @@ nav {
 #nosotros h2 {
     text-align: center;
     margin-top: 75px;
-    margin-bottom: 100px;
+    margin-bottom: 75px;
 }
 #nosotros h4 {
     text-align: center;
-    text-decoration: underline;
     margin-bottom: 40px;
     margin-left: 5px;
     margin-right: 5px;
 }
 #nosotros p {
-    font-size: 14px;
+    font-size: 18px;
     margin-left: 10px;
     margin-right: 10px;
     text-align: center;
@@ -98,25 +97,30 @@ nav {
     font-size: 20px;
 }
 #nosotros #intro {
-    font-size: 20px;
-    margin-bottom: 125px;
+    font-size: 1.3em;
+    margin-bottom: 75px;
 }
-#nosotros img {
-    border-radius: 5px;
+#nosotros .imagen-fondo {
+    background-image: url(../img/business-582912_1920.jpg);
+    background-position: center;
+    background-repeat: none;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    height: 275px;
+    border-radius: 10px;
 }
-#nosotros .img1 {
-    width: 500px;
-    height: 250px;
-}
-#nosotros .img2 {
-    width: 500px;
-    height: 250px;
-}
-#nosotros .img3 {
-    margin-top: -5px;
-}
-#nosotros .row {
-    margin-bottom: 50px;
+#nosotros .imagen-fondo2 {
+    background-image: url(../img/hacker-1569744_1920.jpg);
+    background-position: center;
+    background-repeat: none;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    height: 300px;
+    border-radius: 10px;
 }
 #nosotros span {
     font-weight: 600;
@@ -127,27 +131,23 @@ nav {
 /*Sección equipo*/
 #equipo h2 {
     text-align: center;
-    margin-top: 75px;
-    margin-bottom: 50px;
+    margin-top: 50px;
+    margin-bottom: 25px;
 }
 #equipo h4 {
     text-align: center;
-    text-decoration: underline;
 }
 #equipo p {
-    font-size: 16px;
+    font-size: 18px;
     margin-top: 25px;
-    margin-left: 10px;
-    margin-right: 10px; 
 }
 #equipo .span-text{
     font-style: italic;
     font-weight: bold;
 }
 #equipo .card {
-    margin-top: 50px;
+    margin-top: 25px;
     background-color: #212121; 
-    margin-bottom: 75px;
 }
 #equipo a {
     margin-top: 25px;
@@ -170,7 +170,7 @@ nav {
 }
 #escogenos h2{
     text-align: center;
-    margin-top: 75px;
+    margin-top: 50px;
     margin-bottom: 25px;
 }
 #escogenos h4 {
@@ -179,6 +179,29 @@ nav {
 }
 #escogenos h5 {
     text-decoration: underline;
+}
+#escogenos .tabs{
+    border-radius: 5px;
+    background-color: #212121;
+}
+#escogenos .tabs .indicator { /*Linea inferior*/
+    background-color: #0581fe;
+}
+
+#escogenos .tab a:focus{
+    background-color: #212121;
+}
+#escogenos .tab a {
+    color: white;
+    font-size: 18px; 
+}
+#escogenos p, ol {
+    font-size: 18px;
+}
+#escogenos .color{
+    background-color: #e1e1e1;
+    color: #212121;
+    border-radius: 5px;
 }
 /*Contenedores parallax*/
 .parallax-container{
@@ -261,7 +284,7 @@ nav {
 }
 /*Seccion planes*/
 #planes h2 {
-    margin-top: 75px;
+    margin-top: 50px;
     margin-bottom: 50px;
 }
 #planes p{
@@ -279,16 +302,29 @@ nav {
     color: #0581fe;
 }
 #planes table{
-    font-size: 16px;
+    font-size: 18px;
 }
+#planes .collapsible-header{
+    font-size: 18px;
+}
+#planes .collapsible-header:hover{
+    color:#0581fe;
+    -webkit-transition: all 0.5s ease;
+	-moz-transition:all 0.5s ease;
+	-ms-transition:all 0.5s ease;
+	-o-transition:all 0.5s ease;
+	transition:all 0.5s ease;
+}
+/*Seccion contactanos*/
 #contactanos {
     background-color: #212121;
 }
-#contactanos h6 {
+#contactanos p {
     color: #e1e1e1;
     margin-top: 25px;
     margin-bottom: 50px;
     line-height: 30px;
+    font-size: 18px;
 }
 #contactanos button {
     text-transform: none;
