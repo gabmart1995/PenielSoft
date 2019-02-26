@@ -1,3 +1,7 @@
+/*Diseño CSS pagina web*/
+body p {
+    font-size: 1.3em;
+}
 /* Menú de navegación */
 nav {
     background-color: #212121;
@@ -30,7 +34,6 @@ nav {
 }
 #servicios p {
     text-align: center;
-    font-size: 18px;
 }
 #servicios a {
     background-color:#0581fe;
@@ -79,7 +82,6 @@ nav {
     margin-right: 5px;
 }
 #nosotros p {
-    font-size: 18px;
     margin-left: 10px;
     margin-right: 10px;
     text-align: center;
@@ -138,7 +140,6 @@ nav {
     text-align: center;
 }
 #equipo p {
-    font-size: 18px;
     margin-top: 25px;
 }
 #equipo .span-text{
@@ -197,6 +198,7 @@ nav {
 }
 #escogenos p, ol {
     font-size: 18px;
+    text-align: justify;
 }
 #escogenos .color{
     background-color: #e1e1e1;
@@ -287,9 +289,6 @@ nav {
     margin-top: 50px;
     margin-bottom: 50px;
 }
-#planes p{
-    font-size: 18px;
-}
 #planes .collapsible{
     margin-top: 25px;
     margin-bottom: 25px;
@@ -324,7 +323,6 @@ nav {
     margin-top: 25px;
     margin-bottom: 50px;
     line-height: 30px;
-    font-size: 18px;
 }
 #contactanos button {
     text-transform: none;
