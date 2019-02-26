@@ -816,7 +816,8 @@
                     y nos pondremos en contacto teléfonico o través de nuestro 
                     correo.
                 </p>
-                <form action="" method="" class="col s12" onsubmit="mensaje()">
+                <form action="" method="POST" class="col s12" onsubmit="mensaje()" 
+                autocomplete="off">
                     <div class="row card-panel">
                         <div class="input-field col s12 m6">
                             <i class="fas fa-user-circle prefix"></i>
@@ -838,8 +839,17 @@
                             id="email" class="validate" required>
                             <label for="email">Correo electrónico</label>
                         </div>
-                        <div class="input-field col s12">
-                                <i class="fas fa-phone prefix"></i>
+                        <div class="input-field col s12 m6">
+                           <i class="fas fa-phone-square prefix"></i>
+                           <select name="cod_tele" id="codigo">
+                                <option value="#" selected>Seleccione ...</option>
+                               <option value="58">+58 Venezuela</option>
+                               <option value="57">+57 Colombia</option>
+                           </select>
+                           <label for="codigo">Código teléfonico</label>
+                        </div>
+                        <div class="input-field col s12 m6">
+                            <i class="fas fa-mobile-alt prefix"></i>
                             <input type="tel" placeholder="ingresa tu numero telefonico"
                             id="telefono" class="validate" pattern="[0-9]+"
                             minlength="9" maxlength="10" required>

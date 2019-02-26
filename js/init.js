@@ -35,4 +35,7 @@ document.addEventListener('DOMContentLoaded', function() {
     //tabs
     var elemento9 = document.querySelectorAll('.tabs');
     var instancia9 = M.Tabs.init(elemento9);
+    //select
+    var elemento10 = document.querySelectorAll('select');
+    var instancia10 = M.FormSelect.init(elemento10);
 });
